@@ -1,0 +1,19 @@
+body {
+    background-color: #cd7cff;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+body
+{
+    color: white;
+    background-color: #cd7cff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 100px;
+    border-style: double;
+}
+footer {
+    background-color: white;
+    color: #cd7cff;
+    text-align: center;
+}
