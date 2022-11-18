@@ -6,7 +6,7 @@ const btn = document.querySelector('button');
 btn.addEventListener('click', function () {
     a1 = parseInt(liczba_a1.value);
     a2 = parseInt(liczba_a2.value);
-    if (a1*a2==(-1)) {
+    if (a1*a2===(-1)) {
         wynik.innerHTML = 'Te równania prostych są prostopadłe!';
     } else {
         wynik.innerHTML = "Te równania prostych nie są do siebie prostopadłe!";
