@@ -28,5 +28,5 @@ btn.addEventListener('click', function () {
         wynik.innerHTML = 'Niedziela';
     }
     else
-        wynik.innerHTML = 'Podaj liczbe od 1 do 7!!!';
+        wynik.innerHTML = 'BŁĄD!!! Podaj liczbe od 1 do 7!!!';
 });
