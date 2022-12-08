@@ -23,7 +23,7 @@ btn.addEventListener('click', function () {
         case(a>=90&& a<=100):
             wynik.innerHTML = 'Jest to ocena 5';
             break;
-        case(a>100||a<0):
+        default:
             wynik.innerHTML = 'Podaj prawidłową liczbę procent';
             break;
     }
