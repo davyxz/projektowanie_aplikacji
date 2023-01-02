@@ -7,11 +7,11 @@ function bmi(w, h) {
     let v = h / 100
     let wynik = w / Math.pow(v, 2)
     if (wynik < 16)
-        return 'Wygłodzenie'
+        return 'wygłodzenie'
     else if (16 < wynik && wynik < 17)
-        return 'Wychudzenie'
+        return 'wychudzenie'
     else if (17 <= wynik && wynik < 18.5)
-        return 'Niedowaga'
+        return 'niedowaga'
     else if (18.5 <= wynik && wynik < 25)
         return 'optimum'
     else if (25 <= wynik && wynik < 30)
